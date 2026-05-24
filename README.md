@@ -39,7 +39,6 @@ The ALU supports the following operations:
 | OR | Logical OR operation |
 | XOR | Exclusive OR operation |
 | NOT | Inversion operation |
-| ADD | 1-Bit Addition with Carry |
 
 ---
 
@@ -48,10 +47,9 @@ The ALU supports the following operations:
 The ALU was implemented using:
 
 - Bipolar Junction Transistors (BJTs)
-- Resistor biasing networks
+- Resistor networks
 - Multi-stage combinational logic structures
 - Carry propagation circuitry
-- Control signal routing
 
 The design avoids high-level digital IC abstraction and instead builds logic functionality directly from transistor switching behavior.
 
@@ -119,8 +117,6 @@ This project helped me gain practical understanding of:
 # Tools Used
 
 - **Proteus Design Suite**
-- Digital Logic Design
-- Discrete Transistor Circuits
 
 ---
 
@@ -129,7 +125,6 @@ This project helped me gain practical understanding of:
 | File | Description |
 |---|---|
 | `1-Bit_ALU.pdsprj` | Proteus project file |
-| `README.md` | Project documentation |
 
 ---
 
@@ -138,22 +133,6 @@ This project helped me gain practical understanding of:
 - Expand to a multi-bit ALU architecture
 - Add subtraction and comparison operations
 - Optimize transistor count
-- Implement FPGA-based equivalent design
-- Improve propagation delay performance
-
----
-
-# Author
-
-**Krrish Sanjay Khavnekar**
-
-Electronics Engineering Undergraduate  
-Interested in:
-- Embedded Systems
-- FPGA Design
-- VLSI
-- Digital Hardware Design
-- Robotics
-- Analog Electronics
+- Make a PCB of this Circuit
 
 ---
